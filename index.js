@@ -7,7 +7,7 @@ var join = require("path").join;
 /**
  * Expose the layout
  */
-module.exports.layout = join(__dirname, "views", "layout.html.jade");
+module.exports.layout = join(__dirname, "views", "layout.jade");
 
 /**
  * Add asset paths

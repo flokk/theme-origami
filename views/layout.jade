@@ -1,0 +1,29 @@
+!!! 5
+html(lang='en', data-ng-app=APP_NAME)
+head
+    meta(charset='utf-8')
+    title flokk
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='author', content='Flokk')
+    meta(name='description', content='')
+
+    != css('theme-retro.css')
+    != css('vendor.css')
+    != css(APP_NAME+'.css')
+
+  body
+    #wrap
+
+      if typeof ANGULAR != "undefined"
+        div(data-ng-view='')
+      else
+        block content
+      
+      #push
+    footer
+      block footer
+        .container
+          p.pull-right © Flokk 2013
+    != js('theme-retro.js')
+    != js('vendor.js')
+    != js(APP_NAME+'.js')
