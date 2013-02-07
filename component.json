@@ -5,6 +5,11 @@
   "version": "0.1.0",
   "keywords": [],
   "dependencies": {
+    "CamShaft/bootstrap-reset": "*",
+    "CamShaft/bootstrap-grid": "*",
+    "CamShaft/bootstrap-type": "*",
+    "CamShaft/bootstrap-forms": "*",
+    "CamShaft/bootstrap-responsive": "*"
   },
   "development": {},
   "license": "MIT",
