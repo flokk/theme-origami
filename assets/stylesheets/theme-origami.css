@@ -1,0 +1,24 @@
+/* TODO download the fonts */
+@import url("http://fonts.googleapis.com/css?family=Josefin+Slab:300,400");
+@import url("http://fonts.googleapis.com/css?family=Rambla");
+
+body {
+  background: url("/assets/bg.png");
+}
+
+a {
+  color: #CCCCCC;
+}
+
+input, body, .btn {
+  font-family: Rambla, serif
+}
+
+h1, h2, h3 {
+  font-family: 'Josefin Slab', serif;
+}
+
+input:focus {
+  outline: #CCCCCC;
+  border-color: rgba(204, 204, 204, 0.8);
+}
