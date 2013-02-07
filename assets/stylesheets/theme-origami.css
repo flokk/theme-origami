@@ -3,7 +3,7 @@
 @import url("http://fonts.googleapis.com/css?family=Rambla");
 
 body {
-  background: url("/assets/bg.png");
+  background: url("../images/bg.png");
 }
 
 a {
