@@ -1,4 +1,4 @@
-theme-retro
+theme-origami
 ===========
 
-Retro Theme for Flokk
+Origami Theme for Flokk

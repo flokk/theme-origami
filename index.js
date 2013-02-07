@@ -10,14 +10,6 @@ var join = require("path").join;
 module.exports.layout = join(__dirname, "views", "layout.jade");
 
 /**
- * Add asset paths
+ * Favicon
  */
-module.exports.assets = function(pipeline) {
-  pipeline.appendPath(join(__dirname, "stylesheets"));
-  pipeline.appendPath(join(__dirname, "javascripts"));
-  pipeline.appendPath(join(__dirname, "images"));
-  pipeline.appendPath(join(__dirname, "views"));
-  // Bootstrap
-  pipeline.appendPath(join(__dirname, "components", "btknorr-bootstrap", "docs", "assets", "img"));
-  pipeline.appendPath(join(__dirname, "components"));
-};
+module.exports.favicon = join(__dirname, "assets", "images", "favicon.png");

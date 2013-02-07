@@ -1,7 +1,7 @@
 {
-  "name": "theme-retro",
+  "name": "theme-origami",
   "version": "0.0.0",
-  "description": "Retro Theme for Flokk",
+  "description": "Origami Theme for Flokk",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/flokk/theme-retro.git"
+    "url": "git://github.com/flokk/theme-origami.git"
   },
-  "author": "Cameron Bytheway <cbytheway@familysearch.org>",
+  "author": "Cameron Bytheway <cameron@theflokk.com>",
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {

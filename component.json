@@ -1,5 +1,25 @@
 {
+  "name": "theme-origami",
+  "repo": "flokk/theme-origami",
+  "description": "Origami Theme",
+  "version": "0.1.0",
+  "keywords": [],
   "dependencies": {
-    "btknorr/bootstrap": "*"
-  }
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "assets/javascripts/theme-origami.js"
+  ],
+  "styles": [
+    "assets/stylesheets/theme-origami.css"
+  ],
+  "images": [
+    "assets/images/bg.png",
+    "assets/images/logo.png",
+    "assets/images/favicon.png"
+  ],
+  "files": [
+  
+  ]
 }

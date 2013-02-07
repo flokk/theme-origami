@@ -7,10 +7,8 @@ head
     meta(name='author', content='Flokk')
     meta(name='description', content='')
 
-    != css('theme-retro.css')
-    != css('vendor.css')
-    != css(APP_NAME+'.css')
-
+    link(href=APP_NAME+'.css', rel="stylesheet")
+    
   body
     #wrap
 
@@ -24,6 +22,5 @@ head
       block footer
         .container
           p.pull-right © Flokk 2013
-    != js('theme-retro.js')
-    != js('vendor.js')
-    != js(APP_NAME+'.js')
+
+    script(src=APP_NAME+'.js')
