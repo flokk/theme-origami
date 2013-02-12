@@ -10,7 +10,8 @@
     "CamShaft/bootstrap-type": "*",
     "CamShaft/bootstrap-forms": "*",
     "CamShaft/bootstrap-buttons": "*",
-    "CamShaft/bootstrap-responsive": "*"
+    "CamShaft/bootstrap-responsive": "*",
+    "flokk/font-rambla": "*"
   },
   "development": {},
   "license": "MIT",
