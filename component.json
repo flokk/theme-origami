@@ -11,10 +11,13 @@
     "CamShaft/bootstrap-forms": "*",
     "CamShaft/bootstrap-buttons": "*",
     "CamShaft/bootstrap-responsive": "*",
-    "flokk/font-rambla": "*"
+    "flokk/font-rambla": "*",
+    "jb55/domready": "*",
+    "component/classes": "*"
   },
   "development": {},
   "license": "MIT",
+  "main": "assets/javascripts/theme-origami.js",
   "scripts": [
     "assets/javascripts/theme-origami.js"
   ],
@@ -26,7 +29,5 @@
     "assets/images/logo.png",
     "assets/images/favicon.png"
   ],
-  "files": [
-  
-  ]
+  "files": []
 }

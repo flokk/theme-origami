@@ -6,10 +6,10 @@ head
     meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
     meta(name='author', content='Flokk')
     meta(name='description', content='')
-
+    style .hidden {display: none;}
     link(href=APP_NAME+'.css', rel="stylesheet")
     
-  body(style="display:none")
+  body.hidden
     #wrap
 
       if typeof ANGULAR != "undefined"
