@@ -10,7 +10,6 @@
     "CamShaft/bootstrap-grid": "*",
     "CamShaft/bootstrap-type": "*",
     "CamShaft/bootstrap-forms": "*",
-    "CamShaft/bootstrap-buttons": "*",
     "CamShaft/bootstrap-responsive": "*",
     "jb55/domready": "*",
     "component/classes": "*"
