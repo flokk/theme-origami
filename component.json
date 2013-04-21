@@ -5,13 +5,13 @@
   "version": "0.1.0",
   "keywords": [],
   "dependencies": {
+    "flokk/font-rambla": "*",
     "CamShaft/bootstrap-reset": "*",
     "CamShaft/bootstrap-grid": "*",
     "CamShaft/bootstrap-type": "*",
     "CamShaft/bootstrap-forms": "*",
     "CamShaft/bootstrap-buttons": "*",
     "CamShaft/bootstrap-responsive": "*",
-    "flokk/font-rambla": "*",
     "jb55/domready": "*",
     "component/classes": "*"
   },
