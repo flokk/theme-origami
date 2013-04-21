@@ -1,5 +1,5 @@
 body {
-  background: url("../images/bg.png");
+  background: white;
 }
 
 a {
@@ -7,15 +7,26 @@ a {
 }
 
 input, body, .btn {
-  font-family: Rambla, serif
+  font-family: Rambla, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 h1, h2, h3 {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
-  Helvetica, Arial, "Lucida Grande", sans-serif
+  Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 input:focus {
   outline: #CCCCCC;
   border-color: rgba(204, 204, 204, 0.8);
+}
+
+.brand.brand-flokk {
+  background: url("../images/logo.png") 0 0 no-repeat;
+  background-size: 100%;
+  display: block;
+  height: 46px;
+  width: 170px;
+  text-indent: -99999em;
+  overflow: hidden;
 }
