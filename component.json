@@ -21,7 +21,8 @@
     "assets/javascripts/theme-origami.js"
   ],
   "styles": [
-    "assets/stylesheets/theme-origami.css"
+    "assets/stylesheets/theme-origami.css",
+    "assets/stylesheets/sticky.css"
   ],
   "images": [
     "assets/images/bg.png",
