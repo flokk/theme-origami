@@ -29,4 +29,5 @@ input:focus {
   width: 170px;
   text-indent: -99999em;
   overflow: hidden;
+  margin: 0; /* Bootstrap adds a negative margin */
 }
