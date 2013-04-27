@@ -21,7 +21,7 @@ input:focus {
   border-color: rgba(204, 204, 204, 0.8);
 }
 
-.brand.brand-flokk {
+.navbar .brand.brand-flokk {
   background: url("../images/logo.png") 0 0 no-repeat;
   background-size: 100%;
   display: block;
