@@ -22,7 +22,9 @@
   ],
   "styles": [
     "assets/stylesheets/theme-origami.css",
-    "assets/stylesheets/sticky.css"
+    "assets/stylesheets/sticky.css",
+    "assets/stylesheets/button.css",
+    "assets/stylesheets/button-action.css"
   ],
   "images": [
     "assets/images/bg.png",

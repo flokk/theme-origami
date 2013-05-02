@@ -1,0 +1,10 @@
+.btn.btn-action {
+  background: #E01533;
+  color: white;
+}
+.btn.btn-action:hover {
+  background: #CA132E;
+}
+.btn.btn-action:active {
+  background: #B61129;
+}

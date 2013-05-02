@@ -1,0 +1,19 @@
+.btn {
+  display: inline-block;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 0;
+  background: #BAACAC;
+  -webkit-transition: background-color 70ms linear;
+     -moz-transition: background-color 70ms linear;
+      -ms-transition: background-color 70ms linear;
+       -o-transition: background-color 70ms linear;
+          transition: background-color 70ms linear;
+}
+
+.btn.pull-right {
+  float: right;
+}
