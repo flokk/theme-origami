@@ -1,28 +1,28 @@
 !!! 5
 html(data-ng-app=name)
-head
-  meta(charset='utf-8')
-  meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
-  title(ng-bind="'FLOKK | ' + $root.title") FLOKK | #{title}
-  meta(name='description', content=description)
-  meta(name='author', content='The Flokk, LLC')
-  meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    title(ng-bind="'FLOKK | ' + $root.title") FLOKK | #{title}
+    meta(name='description', content=description)
+    meta(name='author', content='The Flokk, LLC')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
 
-  //- TODO figure out the favicon
+    //- TODO figure out the favicon
 
-  block styles
-    each style in styles
-      link(href=style, rel="stylesheet")
+    block styles
+      each style in styles
+        link(href=style, rel="stylesheet")
 
-  script.
-    //- Stupid hack for facebook login
-    if (window.location.hash === '#_=_') window.location.hash = '';
+    script.
+      // Stupid hack for facebook login
+      if (window.location.hash === '#_=_') window.location.hash = '';
 
-    //- Track page load time
-    var startTime = Date.now();
+      // Track page load time
+      var startTime = Date.now();
 
-    window.env = !{JSON.stringify(env)};
-    
+      window.env = !{JSON.stringify(env)};
+
   body(data-ng-controller="IndexController")
     header
       block header
@@ -47,5 +47,5 @@ head
         script(src=script)
 
     script.
-      //- Track page load time
+      // End page load timing
       if (window.metric) metric({'measure': 'page_load_time', val: (Date.now() - startTime), units: 'ms'});
