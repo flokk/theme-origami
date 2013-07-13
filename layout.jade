@@ -17,12 +17,10 @@ html(data-ng-app=ngapp)
     script.
       // Stupid hack for facebook login
       if (window.location.hash === '#_=_') window.location.hash = '';
-
       // Track page load time
       var startTime = Date.now();
-
+      // Initialize the environment
       window.env = !{JSON.stringify(env)};
-
   body(data-ng-controller="IndexController")
     header
       block header
