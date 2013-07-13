@@ -1,5 +1,5 @@
 !!! 5
-html(data-ng-app=APP_NAME)
+html(data-ng-app=name)
 head
   meta(charset='utf-8')
   meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
@@ -28,7 +28,7 @@ head
       block header
         .navbar.navbar-fixed-top
           .container
-            a(href=SITE_URL).brand.brand-flokk FLOKK
+            a(href=site).brand.brand-flokk FLOKK
             block nav
 
     #wrap
@@ -40,7 +40,7 @@ head
         .container.navbar
           ul.nav.pull-right
             li 
-              a(href=SITE_URL+"/copyright") © 2013 The Flokk, LLC. All rights reserved
+              a(href=site+"/copyright") © 2013 The Flokk, LLC. All rights reserved
 
     block scripts
       each script in scripts
