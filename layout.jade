@@ -1,3 +1,32 @@
+//-
+//- Header Content
+//-
+//- @return {Header}
+//- @api public
+//-
+
+mixin innerheader
+  a(href=site).brand.brand-flokk FLOKK
+
+//-
+//- Footer Content
+//-
+//- @return {Footer}
+//- @api public
+//-
+
+mixin innerfooter
+  ul.nav.pull-right
+    li
+      a(href=site+"/copyright") © 2013 The Flokk, LLC. All rights reserved
+
+//-
+//- Main content
+//-
+//- @return {Content}
+//- @api public
+//-
+
 !!! 5
 html(data-ng-app=ngapp)
   head
@@ -25,9 +54,14 @@ html(data-ng-app=ngapp)
     header
       block header
         .navbar.navbar-fixed-top
-          .container
-            a(href=site).brand.brand-flokk FLOKK
-            block nav
+          if fluid
+            .container-fluid
+              +innerheader
+              block nav
+          else
+            .container
+              +innerheader
+              block nav
 
     #wrap
       block content
@@ -35,10 +69,13 @@ html(data-ng-app=ngapp)
 
     footer
       block footer
-        .container.navbar
-          ul.nav.pull-right
-            li 
-              a(href=site+"/copyright") © 2013 The Flokk, LLC. All rights reserved
+        if fluid
+          .container-fluid.navbar
+            +innerfooter
+        else
+          .container.navbar
+            +innerfooter
+
 
     block scripts
       each script in scripts
