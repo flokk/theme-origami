@@ -20,7 +20,7 @@ input:focus {
 }
 
 .navbar .brand.brand-flokk {
-  background: url("../images/logo.png") 0 0 no-repeat;
+  background: url("../images/logo.svg") 0 0 no-repeat;
   background-size: 100%;
   display: block;
   height: 46px;
